@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+import "./banking/banking.go"
 
 func main() {
-	fmt.Println("Hello world!")
+	account := banking.Account
+
 }
